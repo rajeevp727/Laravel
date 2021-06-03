@@ -47,6 +47,15 @@
         @endforeach
     </table>
   
-    {!! $products->links() !!}
-      
+    <div class="row">
+        <div class="col-12 text-center">
+            {{ $products->links() }}
+        </div>
+    </div>
+    {{-- {!! $products->links() !!} --}}
+      <style>
+          .w-5{
+              display: none;
+          }
+      </style>
 @endsection

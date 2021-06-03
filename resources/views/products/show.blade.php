@@ -1,5 +1,5 @@
 @extends('products.layout')
-  
+
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -15,14 +15,14 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Name:</strong>
-                {{ $product->name }}
+                    <strong>Name:</strong>
+                    <span style="background-color: #a3a3a3">{{ $product->name }}</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Details:</strong>
-                {{ $product->detail }}
+                <span style="background-color: #a3a3a3">{{ $product->detail }}</span>
             </div>
         </div>
     </div>
